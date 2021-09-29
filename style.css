@@ -1,0 +1,47 @@
+:root {
+    --Gray: rgb(224, 206, 223);
+    --fontblack: rgb(20, 18, 18);
+
+}
+
+label {
+    display: block;
+    padding: 1rem;
+    font-size: large;
+    font-family: serif;
+    font-weight: 300;
+}
+
+body {
+    text-align: center;
+    background-color: var(--Gray);
+
+}
+
+input {
+    padding: 1rem;
+    font-size: large;
+}
+
+#btnclick {
+    padding: 0.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 5rem;
+    font-size: medium;
+
+}
+
+#outputbox {
+    padding: 1rem;
+    font-weight: 400;
+    font-family: cursive;
+    font-size: x-large;
+    color: var(--fontblack);
+}
+
+.footer-list, li, .link {
+    display: inline;
+    text-decoration: none;
+    
+}
